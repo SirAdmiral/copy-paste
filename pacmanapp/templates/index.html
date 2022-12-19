@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css" />
+
+<div class="login-background">
+   <div class="wrapper">
+      <div class="login-box">
+          <h1>Login</h1>
+          <form>
+              <div class="textbox">
+                   <i class="fa-solid fa-user"></i>
+                   <input class="input-glf" type="text" placeholder="Username" />
+              </div>
+               <div class="textbox">
+                   <i class="fa-solid fa-lock"></i>
+                   <input class="input-glf" type="password" placeholder="Password" />
+               </div>
+             <button class="btn-glf" type="submit" name="submit">Sign in</button>
+
+           </form>
+          <button class="btn-glf">Don`t have an account?</button>
+      </div>
+   </div>
+</div>
+
+{% endblock %}
